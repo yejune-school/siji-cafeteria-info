@@ -1,0 +1,14 @@
+{
+  "name": "mogeup",
+  "version": "1.2.0",
+  "description": "모급 - 모든 학교 급식을 쉽게!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . MoGeup --platform=win32 --arch=x64 --out=dist --overwrite --icon=icon.ico --ignore=^/dist --ignore=^/README.md --ignore=\\.mobileconfig$"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "@electron/packager": "^18.3.0"
+  }
+}
